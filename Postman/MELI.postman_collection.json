@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "47ba40eb-5742-41da-bf93-f3aa6cb36cea",
+		"name": "MELI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getproxy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/categories/MLA1367",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"MLA1367"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consumos all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/consumos/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"consumos",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limitGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/limit/127.0.0.1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"limit",
+						"127.0.0.1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "limitGet view",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/limit/view/127.0.0.1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"limit",
+						"view",
+						"127.0.0.1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post limt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ip\":\"127.0.0.1\",\r\n    \"ruta\":\"saddsadaas\",\r\n    \"limite_maximo\": 8\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/limit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"limit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete limit",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ip\":\"127.0.0.1\",\r\n    \"ruta\":\"categories\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/limit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"limit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consumos por ip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/consumos/127.0.0.1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"consumos",
+						"127.0.0.1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "estadisticas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/consumos/estadisticas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"consumos",
+						"estadisticas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

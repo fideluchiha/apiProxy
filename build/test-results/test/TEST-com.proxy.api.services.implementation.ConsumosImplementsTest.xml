@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.proxy.api.services.implementation.ConsumosImplementsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-08-13T00:58:39" hostname="FIDEL" time="9.474">
+  <properties/>
+  <testcase name="testFindAll()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="8.797"/>
+  <testcase name="testRequestUrl()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.49"/>
+  <testcase name="testFindByIp()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.014"/>
+  <testcase name="testEstadisticas()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.043"/>
+  <testcase name="testRequestUrlElse()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.011"/>
+  <testcase name="testRequestUrlFail()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.012"/>
+  <testcase name="testRequestUrlElse2()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.033"/>
+  <testcase name="testRequestUrlElse3()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.012"/>
+  <testcase name="testRequestUrlElse4()" classname="com.proxy.api.services.implementation.ConsumosImplementsTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
