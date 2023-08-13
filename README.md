@@ -19,7 +19,7 @@ apiProxy es una aplicación de ejemplo desarrollada en Java utilizando el framew
 2. Abre una terminal y navega hasta el directorio raíz de la aplicación:
 
    ```sh
-   cd ruta/del/proyecto/MiApp
+   cd ruta/del/proyecto/apiProxy
    ```
 
 3. Compila y ejecuta la aplicación usando Gradle:
@@ -33,7 +33,7 @@ apiProxy es una aplicación de ejemplo desarrollada en Java utilizando el framew
 4. Abre un navegador web y accede a la siguiente URL para interactuar con la aplicación:
 
    ```
-   http://localhost:8080
+   [http://localhost:8080](http://127.0.0.1:8080/categories/MLA1367)
    ```
 
    Aquí encontrarás la interfaz de usuario de la aplicación, donde podrás realizar las operaciones básicas de gestión de elementos.
